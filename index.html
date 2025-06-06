@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI Speech Builder</h1>
+    <label>Topic:</label><br>
+    <input type="text" id="topic"><br>
+    <label>Tone:</label><br>
+    <select id="tone">
+        <option value="inspiring">Inspiring</option>
+        <option value="witty">Witty</option>
+        <option value="poetic">Poetic</option>
+    </select><br>
+    <label>Audience Type:</label><br>
+    <input type="text" id="audience"><br><br>
+    <button onclick="generateSpeech()">Generate Speech</button>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
